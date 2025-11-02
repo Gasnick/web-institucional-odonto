@@ -175,9 +175,12 @@ h6 {
 .header .topbar {
   background-color: var(--background-color);
   height: 40px;
+  overflow: hidden;
   padding: 0;
   font-size: 14px;
-  transition: all 0.5s;
+  opacity: 1;
+  visibility: visible;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
 }
 
 .header .topbar .contact-info i {
@@ -245,11 +248,6 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
-.scrolled .header .topbar {
-  height: 0;
-  visibility: hidden;
-  overflow: hidden;
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
