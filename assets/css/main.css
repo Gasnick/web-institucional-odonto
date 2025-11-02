@@ -52,7 +52,7 @@
   --background-color: #0288b5;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #252525;
+  --surface-color: #000000;
   --contrast-color: #ffffff;
 }
 
@@ -807,9 +807,9 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  background: linear-gradient(135deg,
+  background: linear-gradient(85deg,
       var(--surface-color) 0%,
-      color-mix(in srgb, var(--accent-color), transparent 95%) 100%);
+      color-mix(in srgb, var(--accent-color), transparent 99%) 100%);
   padding: 60px 0;
   scroll-margin-top: 78px;
   overflow: clip;
